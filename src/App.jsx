@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Movie from "./components/Movie";
 
 const App = () => {
-  const API_URL = "http://www.omdbapi.com?apikey=5b0788bf";
+  const API_URL = "https://www.omdbapi.com?apikey=5b0788bf";
 
   const [movies, setMovies] = useState([]);
 
